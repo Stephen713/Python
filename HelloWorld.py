@@ -16,7 +16,7 @@ def main():
 	elif sys.argv[2] == str(2):
 		print 'two times'
 	else:
-		print 'other'
+		print 'other no times'
 
 if __name__ == '__main__':
 	main()
