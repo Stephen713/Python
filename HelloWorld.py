@@ -6,13 +6,13 @@ def repeat(s, exclaim):
 	"""
 	result = s + s + s
 	if exclaim:
-		result += '!!!'
+		result += '!!!!'
 	return result
 
 def main():
 	print 'Hello there', repeat(sys.argv[1], True)
 	if sys.argv[2] == str(3):
-		print 'three'
+		print 'three ladeda'
 	elif sys.argv[2] == str(2):
 		print 'two'
 	else:
