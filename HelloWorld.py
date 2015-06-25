@@ -14,7 +14,7 @@ def main():
 	if sys.argv[2] == str(3):
 		print 'three times'
 	elif sys.argv[2] == str(2):
-		print 'two'
+		print 'two times'
 	else:
 		print 'other'
 
